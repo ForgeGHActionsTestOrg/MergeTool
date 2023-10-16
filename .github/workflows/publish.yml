@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   build:
-    uses: ForgeGHActionsTestOrg/SharedActions/.github/workflows/gradle.yml@main
+    uses: ForgeGHActionsTestOrg/ForgeSharedActions/.github/workflows/gradle.yml@main
     with:
       java: 8
       gradle_tasks: "build"
