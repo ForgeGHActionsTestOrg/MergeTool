@@ -13,3 +13,5 @@ jobs:
     with:
       java: 8
       gradle_tasks: "build"
+    secrets:
+      DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
